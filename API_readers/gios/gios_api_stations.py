@@ -61,3 +61,4 @@ df.drop(columns=['coordinates'], inplace=True)
 
 df.to_csv('gios_coordinates.csv', index=False)
 print("Data has been processed and saved to 'gios_coordinates.csv'.")
+

@@ -1,0 +1,84 @@
+point_id,Uziarnienie,Jednostka,1995,2000,2005,2010,2015,2020
+57,"BN-78/9180-11: 1,0-0,1 mm",udział w %,8,8,5,6,8,45
+57,"BN-78/9180-11: 0,1-0,02 mm",udział w %,31,32,32,35,40,24
+57,BN-78/9180-11: < 0.02 mm,udział w %,61,60,63,59,52,31
+57,"PTG 2008: 2,0-0,05 mm",udział w %,,,,16,28,55
+57,"PTG 2008: 0,05-0,002 mm",udział w %,,,,62,51,35
+57,PTG 2008: < 0.002 mm,udział w %,25,25,22,22,21,10
+57,"Odczyn ""pH "" w zawiesinie H2O",pH,7.1,7.4,7.5,8.0,7.7,7.8
+57,"Odczyn ""pH "" w zawiesinie KCl",pH,6.0,6.3,6.3,6.9,7.0,6.9
+57,Węglany (CaCO3),%,0.21,0.21,0.24,0.58,0.74,0.05
+57,Próchnica,%,2.12,2.38,2.08,2.29,2.36,2.31
+57,Węgiel organiczny,%,1.23,1.38,1.21,1.33,1.37,1.34
+57,Azot ogólny,%,0.137,0.145,0.131,0.157,0.17,0.17
+57,Stosunek C/N,,9.0,9.5,9.2,8.5,8.1,7.88
+57,Kwasowość hydrolityczna (Hh),cmol(+)*kg-1,0.9,0.75,1.05,0.9,1.05,1.1
+57,Kwasowośc wymienna (Hw),cmol(+)*kg-1,,,,,,0.05
+57,"Glin wymienny ""Al""",cmol(+)*kg-1,,,,,,0.02
+57,Wapń wymianny (Ca2+),cmol(+)*kg-1,22.15,20.97,22.45,19.68,14.81,17.9
+57,Magnez wymienny (Mg2+),cmol(+)*kg-1,3.18,3.56,2.55,4.71,0.0,3.5
+57,Sód wymienny (Na+),cmol(+)*kg-1,0.21,0.16,0.19,0.1,0.24,"<0,10"
+57,Potas wymienny (K+),cmol(+)*kg-1,0.71,0.64,0.48,0.71,12.86,0.62
+57,Suma kationów wymiennych (S),cmol(+)*kg-1,26.25,25.33,25.67,25.2,27.9,22.02
+57,Pojemność sorpcyjna gleby (T),cmol(+)*kg-1,27.15,26.08,26.72,26.1,28.95,36.3
+57,Wysycenie kompleksu sorpcyjnego kationami zasadowymi (V),%,96.69,97.12,96.07,96.55,96.37,60.66
+57,Fosfor przyswajalny,mg P2O5* 100g-1,4.8,6.8,14.9,18.6,9.7,17.8
+57,Potas przyswajalny,mg K2O*100g-1,15.2,15.7,17.7,20.8,19.3,23
+57,Magnez przyswajalny,mg Mg*100g-1,18.0,21.3,21.4,27.2,21.6,26.6
+57,Siarka przyswajalna,mg S-SO4*100g-1,1.12,1.25,1.13,0.96,2.56,4.3
+57,Azot amonowy,NNH4 mg*kg-1,,,,,4.46,2.4
+57,Azot azotanowy,NNO3 mg*kg-1,,,,,5.16,19.3
+57,Fosfor,%,0.075,0.087,0.1,0.072,0.07,0.038
+57,Wapń,%,0.65,0.7,0.77,0.54,0.56,0.08
+57,Magnez,%,0.67,0.61,0.6,0.49,0.45,0.09
+57,Potas,%,0.42,0.38,0.3,0.19,0.16,0.09
+57,Sód,%,0.015,0.015,0.013,0.006,0.008,0.003
+57,Siarka,%,0.032,0.028,0.031,0.026,0.034,0.027
+57,Glin,%,2.4,2.67,2.4,1.26,1.17,0.4
+57,Żelazo,%,2.6,2.63,2.56,2.67,2.2,0.45
+57,Mangan,Mn mg*kg-1,967,996,1020,1023,887,991
+57,Kadm,Cd mg*kg-1,0.51,0.49,0.44,0.34,0.32,"<0,50"
+57,Miedź,Cu mg*kg-1,21.3,23.2,22.3,20.0,21.3,17
+57,Chrom,Cr mg*kg-1,29.8,26.3,25.5,23.8,25.1,29.3
+57,Nikiel,Ni mg*kg-1,32.2,34.5,33.5,33.2,33.9,32
+57,Ołów,Pb mg*kg-1,15.7,16.3,21.2,18.5,16.4,16.4
+57,Cynk,Zn mg*kg-1,75.0,80.3,76.2,75.7,73.9,65.3
+57,Kobalt,Co mg*kg-1,5.71,6.93,8.27,9.59,9.84,9.72
+57,Wanad,V mg*kg-1,55.0,61.7,56.2,25.9,27.3,31.5
+57,Lit,Li mg*kg-1,22.2,24.4,20.6,17.0,16.2,23.4
+57,Beryl,Be mg*kg-1,0.83,0.93,0.76,0.69,0.66,"<2,00"
+57,Bar,Ba mg*kg-1,124.0,116.7,100.1,86.8,76.8,98.1
+57,Stront,Sr mg*kg-1,26.7,28.3,21.6,16.9,21.2,26.8
+57,Lantan,La mg*kg-1,16.7,18.6,13.9,13.4,10.9,18.53
+57,Rtec,Hg mg*kg-1,,,,,0.07,"<0,100"
+57,Arsen,As mg*kg-1,,,,,5.76,6.73
+57,Wielopierscieniowe weglowodory aromatyczne suma 13 WWA,µg*kg-1,783.0,749.0,535.0,323.2,2265.7,493
+57,WWA - naftalen,µg*kg-1,,,,,10.3,"<25,0"
+57,WWA - fenantren,µg*kg-1,,,,,183.7,39
+57,WWA - antracen,µg*kg-1,,,,,24.8,"<25,0"
+57,WWA - fluoranten,µg*kg-1,,,,,398.1,81
+57,WWA - chryzen,µg*kg-1,,,,,212.8,44
+57,WWA - benzo(a)antracen,µg*kg-1,,,,,187.7,34
+57,WWA - benzo(a)piren,µg*kg-1,,,,,175.3,43
+57,WWA - benzo(a)fluoranten,µg*kg-1,,,,,31.0,"<25,0"
+57,WWA - benzo(ghi)perylen,µg*kg-1,,,,,150.8,40
+57,WWA - fluoren,µg*kg-1,,,,,15.6,"<25,0"
+57,WWA - piren,µg*kg-1,,,,,339.5,60
+57,WWA - benzo(b)fluoranten,µg*kg-1,,,,,269.4,49
+57,WWA - benzo(k)fluoranten,µg*kg-1,,,,,88.4,37
+57,"WWA - dibenzo(a,h)antracen",µg*kg-1,,,,,33.7,"<25,0"
+57,"WWA - indeno(1,2,3-cd)piren",µg*kg-1,,,,,185.8,66
+57,Pestycydy chloroorganiczne - DDT/DDE/DDD,mg*kg-1,,,,,0.015,
+57,Pestycydy chloroorganiczne - aldrin,mg*kg-1,,,,,0.003,
+57,Pestycydy chloroorganiczne - dieldrin,mg*kg-1,,,,,"<0,001",
+57,Pestycydy chloroorganiczne - endrin,mg*kg-1,,,,,"<0,001",
+57,Pestycydy chloroorganiczne - alfa-HCH,mg*kg-1,,,,,"<0,001",
+57,Pestycydy chloroorganiczne - beta-HCH,mg*kg-1,,,,,"<0,001",
+57,Pestycydy chloroorganiczne - gamma-HCH,mg*kg-1,,,,,"<0,001",
+57,Pestycydy - zwiazki nie chlorowe - carbaryl,mg*kg-1,,,,,"<0,001",
+57,Pestycydy - zwiazki nie chlorowe - carbofuran,mg*kg-1,,,,,"<0,001",
+57,Pestycydy - zwiazki nie chlorowe - maneb,mg*kg-1,,,,,,
+57,Pestycydy - zwiazki nie chlorowe - atrazin,mg*kg-1,,,,,"<0,001",
+57,Radioaktywność,Bq*kg-1,827,824,762,846,984,585
+57,Przewodnictwo elektryczne właściwe,mS*m-1,8.77,10.4,10.3,10.29,13.11,10.6060606
+57,Zasolenie,mg KCl*100g-1,22.6,27.5,27.1,27.15,34.61,28

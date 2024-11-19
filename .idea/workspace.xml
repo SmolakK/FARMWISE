@@ -4,7 +4,243 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e861ba43-0096-452f-bd7e-8db19b445a06" name="Changes" comment="" />
+    <list default="true" id="e861ba43-0096-452f-bd7e-8db19b445a06" name="Changes" comment="GIOS_Groundwater quality/quantity">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_101.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_103.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_105.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_107.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_111.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_113.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_115.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_117.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_119.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_121.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_123.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_125.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_127.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_129.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_131.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_133.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_135.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_137.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_139.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_141.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_143.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_145.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_147.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_149.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_151.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_153.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_155.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_157.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_159.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_161.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_163.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_165.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_167.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_169.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_17.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_171.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_173.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_175.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_177.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_179.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_181.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_183.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_187.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_189.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_191.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_193.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_195.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_197.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_199.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_201.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_203.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_205.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_207.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_209.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_21.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_211.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_213.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_215.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_217.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_219.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_221.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_223.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_225.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_229.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_23.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_233.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_235.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_237.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_239.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_241.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_243.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_245.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_247.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_249.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_25.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_251.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_253.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_255.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_257.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_259.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_261.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_263.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_265.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_267.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_269.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_27.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_271.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_273.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_275.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_277.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_279.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_281.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_283.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_285.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_287.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_289.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_29.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_291.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_295.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_297.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_299.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_301.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_303.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_305.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_307.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_31.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_311.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_313.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_315.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_317.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_319.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_321.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_323.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_325.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_327.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_329.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_33.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_331.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_333.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_335.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_337.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_339.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_341.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_343.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_345.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_347.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_349.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_35.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_351.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_353.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_355.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_357.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_359.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_361.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_363.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_365.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_367.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_369.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_37.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_371.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_373.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_375.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_377.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_379.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_381.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_383.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_385.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_387.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_389.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_39.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_393.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_395.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_397.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_399.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_401.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_403.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_405.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_407.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_409.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_41.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_411.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_413.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_415.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_417.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_419.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_421.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_423.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_425.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_427.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_429.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_43.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_431.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_433.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_435.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_437.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_439.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_441.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_443.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_445.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_447.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_449.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_45.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_47.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_49.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_51.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_53.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_55.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_57.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_59.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_61.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_63.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_65.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_69.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_71.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_73.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_75.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_77.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_79.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_81.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_83.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_85.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_87.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_89.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_91.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_93.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_95.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_97.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/data/point_99.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/PAHs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/available_elements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/gios_pivot.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/grain_size_distribution.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/others.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/pesticides.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/ph_carbonates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/soil_organics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/sorption_properties.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/total_macroelements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API_readers/gios/output/total_trace_elements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FARMWISE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FARMWISE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_readers/gios/gios_api_stations.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_readers/gios/gios_api_stations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappings/data_source_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/mappings/data_source_mapping.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +254,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -31,9 +272,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2eAotEIqp7kd8bHmw2cEK0VgbmV" />
   <component name="ProjectViewState">
@@ -42,24 +285,35 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Python.db_users.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hubeau_piezo_read.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GIT/FARMWISE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;Python.DWD_stations_precipitation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DWD_stations_temperature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.German_DWD_precipitation.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.German_DWD_temperature.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.UA_sw.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.UA_sw_stations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gios_gw.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main_call.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ukrainian_surface_water.executor&quot;: &quot;Debug&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JakubM/Documents/GitHub/FARMWISE&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\DWD_temperature\DWD_temperature_mapping" />
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\DWD_temperature" />
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\DWD_precipitation" />
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\UA_surface_water_quality" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\DWD_precipitation\constants" />
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\DWD_precipitation" />
+      <recent name="C:\Users\JakubM\Documents\GitHub\FARMWISE\API_readers\UA_sw_quality\constants" />
       <recent name="D:\GitHub\FARMWISE\API_readers\cds" />
       <recent name="D:\GitHub\FARMWISE\API_readers\imgw_hydro\imgw_mappings" />
-      <recent name="D:\GitHub\FARMWISE\utils" />
-      <recent name="D:\GitHub\FARMWISE\API_readers\imgw_hydro\constants" />
-      <recent name="D:\GitHub\FARMWISE\API_readers\gios\constants" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hubeau_piezo_read">
+  <component name="RunManager">
     <configuration name="egdi_read_d10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FARMWISE" />
       <option name="ENV_FILES" value="" />
@@ -183,7 +437,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -196,7 +450,31 @@
       <option name="presentableId" value="Default" />
       <updated>1711356955598</updated>
     </task>
+    <task id="LOCAL-00001" summary="GIOS_Groundwater quality/quantity">
+      <option name="closed" value="true" />
+      <created>1731322777209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731322777217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GIOS_Groundwater quality/quantity" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIOS_Groundwater quality/quantity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,6 +493,65 @@
           <line>65</line>
           <option name="timeStamp" value="412" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/cds/cds_land_cover.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/cds/cds_land_cover.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/egdi/egdi_read_d10.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/hubeau/hubeau_piezo_read.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="586" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/UA_sw_quality/UA_sw.py</url>
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/UA_sw_quality/UA_sw_stations.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="589" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/UA_sw_quality/UA_sw.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/gios_gw/gios_gw.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_call.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="624" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_call.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="625" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/DWD_precipitation/German_DWD_precipitation.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/API_readers/DWD_temperature/German_DWD_temperature.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -224,5 +561,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="final_df" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

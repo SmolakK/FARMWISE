@@ -102,4 +102,37 @@ API_PATH_RANGES = {
          1,
          1)
     ),
+    'API_readers.gios_gw.gios_gw': (
+        ((54.8396, 49.0023, 24.1453, 14.1226),
+         ('1991-01-01', CURRENT_DAY),
+         ['groundwater quality'],
+         'yearly',
+         1,
+         1)
+    ),
+    'API_readers.UA_sw_quality': (
+        ((52.3791473, 44.184598, 40.2275801, 22.137059),
+         ('2003-01-02', '2024-03-31'),
+         ['water quality'],
+         'monthly',
+         1,
+         1)
+
+    ),
+    'API_readers.German_DWD_precipitation': (
+        ((46.6195777506, 55.1311583218, 5.4390162315, 15.3760105286),
+         ('1991-01-01', '2024-12-31'),
+         ['precipitation'],
+         'daily',
+         1,
+         1)
+    ),
+    'API_readers.German_DWD_temperature': (
+        ((46.6195777506, 55.1311583218, 5.4390162315, 15.3760105286),
+         ('1991-01-01', '2024-12-31'),
+         ['temperature'],
+         'hourly',
+         1,
+         1)
+    )
 }
