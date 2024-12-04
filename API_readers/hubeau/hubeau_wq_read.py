@@ -386,7 +386,7 @@ if dev_test_enabled and __name__ == "__main__":
 
     print("\nTEST: calling function read_data of hubeau_wq_read...")
 
-    whatweget = read_data(spatial_range, time_range, data_range, LEVEL, nmax_pts=None, verbose_level=1)
+    whatweget = asyncio.run(read_data(spatial_range, time_range, data_range, LEVEL, nmax_pts=None, verbose_level=1))
 
     print("\n\nWHAT we got with this test =")
     print(whatweget)
