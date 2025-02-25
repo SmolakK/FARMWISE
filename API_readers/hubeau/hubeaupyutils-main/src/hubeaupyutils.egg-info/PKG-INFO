@@ -1,0 +1,70 @@
+Metadata-Version: 2.4
+Name: hubeaupyutils
+Version: 0.1.0
+Summary: A simple python tool to retrieve data from hubeau
+Author-email: Abel Henriot <a.henriot@brgm.fr>, Adrien Manlay <a.manlay@brgm.fr>, Thibault Halllouin <t.hallouin@brgm.fr>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2022-2024 Abel Henriot, Adrien Manlay, Thibault Hallouin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: Home, https://gitlab.brgm.fr/brgm/si-eau/traitements-et-valorisations/hubeaupyutils
+Classifier: Programming Language :: Python : 3
+Classifier: License :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: pandas
+Dynamic: license-file
+
+# hubeaupyutils
+A utils library to query the Hub'eau API's in python
+
+## Description
+hubeaupyutils is a python library to query the hub'eau API's using python.
+
+## Installation
+the library can be installed using pip
+From shell/bash :
+```bash
+pip install $PATH_TO_THE_LOCAL_DIST_FILE
+```
+
+with `$PATH_TO_THE_LOCAL_DIST_FILE` beeing the file to the wheel
+
+## Usage
+Example of usage can be found under doc/getting_start.ipynb
+
+
+## Roadmap
+Only few endpoints (wrapper) are available so far, remaining one will be cover as soon as volonteers will improve the code.
+
+## Authors and acknowledgment
+a.henriot@brgm.fr, a.manlay@brgm.fr, t.hallouin@brgm.fr
+
+## License
+MIT Licence
+
+## Getting started
+see example/getting_start.ipynb

@@ -8,6 +8,9 @@ from user_database import engine, Base
 import tempfile
 import shutil
 from contextlib import asynccontextmanager
+import os
+import sys
+
 
 # Create the database tables
 Base.metadata.create_all(bind=engine)
@@ -15,6 +18,7 @@ Base.metadata.create_all(bind=engine)
 # Create a temporary directory for the application
 temp_dir = tempfile.mkdtemp()
 logger.info(f"Temporary directory created at {temp_dir}")
+
 
 
 # Define the lifespan context manager
@@ -46,6 +50,9 @@ setup_security(app)
 # Run the application
 if __name__ == "__main__":
     import uvicorn
+    
+    if "--seed" in sys.argv:
+        os.system("python seeder.py")
 
     uvicorn.run(
         "main:app",  # Specify the module and app
