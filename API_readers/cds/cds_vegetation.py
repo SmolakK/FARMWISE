@@ -1,5 +1,4 @@
 import os
-import cdsapi
 import xarray as xr
 import pandas as pd
 from datetime import datetime
@@ -8,7 +7,7 @@ import warnings
 import zipfile
 import glob
 from API_readers.cds.cds_mappings.cds_vegetation_mapping import GLOBAL_MAPPING, DATA_ALIASES
-import asyncio
+from API_readers.cds.cdsapi_client import cdsapi_client_init
 
 
 async def read_data(spatial_range, time_range, data_range, level):
@@ -26,7 +25,7 @@ async def read_data(spatial_range, time_range, data_range, level):
     dataset = "sis-agroproductivity-indicators"
 
     # Initialise the client
-    c = cdsapi.Client()
+    c = cdsapi_client_init()
     north, south, east, west = spatial_range
     start, end = time_range
     start = datetime.strptime(start, '%Y-%m-%d').date()

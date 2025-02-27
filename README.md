@@ -66,19 +66,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 This will start the FastAPI server on port 8000.
 
 ## Configuration
-The project uses a `.env` file to store environment variables. You can create a `.env` file with the following variables:
+The project uses a `.env` file to store environment variables. You can create a `.env` from copy `.env.dist`
 
-- `ADMIN_ID`: the administrator ID
-- `ADMIN_PASSWORD`: the administrator password
-- `DATABASE_URL`: the database URL
-
-Example `.env` file:
-
-```bash
-ADMIN_ID=admin
-ADMIN_PASSWORD=password
-DATABASE_URL=sqlite:///farmwise.db
-```
+#### APIs
+- CDS Api
+Visit [https://cds.climate.copernicus.eu/how-to-api] to generate API Key
 
 Note that you should adapt these values to your specific needs.
 
