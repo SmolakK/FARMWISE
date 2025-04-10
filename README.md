@@ -40,18 +40,18 @@ Activate the environment:
 conda activate farmwise
 ```
 
-### Step 4: Install Dependencies
+### Step 4: Install wihout Dependencies
 Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Installing Dependencies
-To install the dependencies, run the following command:
+## Launch Pytest
+To launch pytests, run the following command:
 
 ```bash
-pip install -r requirements.txt
+python -m pytest
 ```
 
 This will install all the required libraries and dependencies.

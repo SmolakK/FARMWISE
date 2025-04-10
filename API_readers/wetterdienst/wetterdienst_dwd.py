@@ -1,4 +1,5 @@
-from wetterdienst.provider.dwd.observation import DwdObservationRequest, DwdObservationResolution
+from wetterdienst.provider.dwd.observation import DwdObservationRequest, DwdObservationMetadata
+
 import pandas as pd
 from utils.coordinates_to_cells import prepare_coordinates
 import warnings
@@ -34,7 +35,7 @@ async def read_data(spatial_range, time_range, data_range, level):
     # Create a request object
     requests = DwdObservationRequest(
         parameter=data_requested,
-        resolution=DwdObservationResolution.DAILY,
+        resolution=DwdObservationMetadata.DAILY,
         start_date=start_date,
         end_date=end_date
     ).filter_by_bbox(west, south, east, north)

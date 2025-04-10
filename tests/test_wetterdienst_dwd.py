@@ -1,7 +1,6 @@
 import pytest
-from unittest.mock import AsyncMock, patch, MagicMock
+from unittest.mock import patch, MagicMock
 import pandas as pd
-from wetterdienst.provider.dwd.observation import DwdObservationRequest, DwdObservationResolution
 from API_readers.wetterdienst.wetterdienst_dwd import read_data
 from utils.coordinates_to_cells import prepare_coordinates
 
