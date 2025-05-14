@@ -1,5 +1,4 @@
 import os.path
-import cdsapi
 import xarray as xr
 import pandas as pd
 from datetime import datetime
@@ -8,7 +7,7 @@ from utils.coordinates_to_cells import prepare_coordinates
 from utils.interpolate_data import interpolate
 import warnings
 import numpy as np
-import asyncio
+from API_readers.cds.cdsapi_client import cdsapi_client_init
 
 
 async def read_data(spatial_range, time_range, data_range, level):
@@ -24,8 +23,9 @@ async def read_data(spatial_range, time_range, data_range, level):
     print("DOWNLOADING: Copernicus Land Cover")
 
     dataset = 'satellite-land-cover'
+    
     # Initialise the client
-    c = cdsapi.Client()
+    c = cdsapi_client_init()
     north, south, east, west = spatial_range
     start, end = time_range
     start = datetime.strptime(start, '%Y-%m-%d').date()

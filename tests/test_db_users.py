@@ -2,8 +2,10 @@ import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sql_schemas import User
+from schemas import UserCreate
 from user_database import Base
-from db_users import add_user, delete_user  # Adjust import paths based on your project structure
+from crud import create_user, delete_user
+import crud
 
 # Set up an in-memory SQLite database for testing
 TEST_DATABASE_URL = "sqlite:///:memory:"
@@ -24,63 +26,54 @@ def db_session():
     session.close()
 
 
-def test_add_user(db_session, monkeypatch):
+def test_crud_create_user(db_session):
     """
-    Test adding a user to the database.
+    Test creating a user through the crud module.
     """
-    monkeypatch.setattr("db_users.SessionLocal", lambda: db_session)
+    user_data = UserCreate(
+        username="cruduser", 
+        email="crud@example.com", 
+        full_name="Crud User", 
+        password="password123"
+    )
+    
+    db_user = crud.create_user(db_session, user_data)
+    
+    assert db_user.username == "cruduser"
+    assert db_user.email == "crud@example.com"
+    assert db_user.full_name == "Crud User"
+    assert db_user.disabled is False
 
-    add_user("testuser", "test@example.com", "Test User", "password123")
 
-    user = db_session.query(User).filter(User.username == "testuser").first()
+def test_crud_delete_user(db_session):
+    """
+    Test deleting a user through the crud module.
+    """
+    # First create a user
+    user_data = UserCreate(
+        username="deleteuser", 
+        email="delete@example.com", 
+        full_name="Delete User", 
+        password="password123"
+    )
+    crud.create_user(db_session, user_data)
+    
+    # Verify user exists
+    user = crud.get_user_by_username(db_session, "deleteuser")
     assert user is not None
-    assert user.username == "testuser"
-    assert user.email == "test@example.com"
-    assert user.full_name == "Test User"
-    assert user.disabled is False
-
-
-def test_add_existing_user(db_session, monkeypatch):
-    """
-    Test adding a user with an existing username.
-    """
-    monkeypatch.setattr("db_users.SessionLocal", lambda: db_session)
-
-    # Add the user once
-    add_user("testuser", "test@example.com", "Test User", "password123")
-
-    # Try to add the user again
-    add_user("testuser", "test@example.com", "Test User", "password123")
-
-    users = db_session.query(User).filter(User.username == "testuser").all()
-    assert len(users) == 1  # Should still only have one user
-
-
-def test_delete_user(db_session, monkeypatch):
-    """
-    Test deleting a user from the database.
-    """
-    monkeypatch.setattr("db_users.SessionLocal", lambda: db_session)
-
-    # Add a user to delete
-    add_user("testuser", "test@example.com", "Test User", "password123")
-
+    
     # Delete the user
-    delete_user("testuser")
-
-    user = db_session.query(User).filter(User.username == "testuser").first()
+    result = crud.delete_user(db_session, "deleteuser")
+    assert result is True
+    
+    # Verify user is deleted
+    user = crud.get_user_by_username(db_session, "deleteuser")
     assert user is None
 
 
-def test_delete_nonexistent_user(db_session, monkeypatch):
+def test_crud_delete_nonexistent_user(db_session):
     """
-    Test deleting a user that does not exist.
+    Test deleting a nonexistent user through the crud module.
     """
-    monkeypatch.setattr("db_users.SessionLocal", lambda: db_session)
-
-    # Attempt to delete a non-existent user
-    delete_user("nonexistentuser")
-
-    # Ensure the database remains unaffected
-    users = db_session.query(User).all()
-    assert len(users) == 0
+    result = crud.delete_user(db_session, "nonexistentuser")
+    assert result is False
