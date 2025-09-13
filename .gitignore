@@ -31,3 +31,6 @@ API_readers/soilgrids/temp_storage/out.tif
 .env
 .env.*
 !.env.dist
+*.env
+routers/__pycache__/data_call.cpython-39.pyc
+.idea/workspace.xml
